@@ -1,0 +1,21 @@
+INFO:     Started server process [14622]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57660 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49704 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41996 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41996 - "GET /api/channels/general/posts HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:41996 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39880 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39880 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39880 - "GET /api/channels/general/posts HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:45584 - "POST /api/channels/self-evolution/posts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45598 - "GET /api/channels/self-evolution/posts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49070 - "GET /api/channels/self-evolution/posts. HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45940 - "GET /api/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33160 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33160 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33160 - "GET / HTTP/1.1" 200 OK
